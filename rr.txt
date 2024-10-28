@@ -1,0 +1,5 @@
+composer require kreait/laravel-firebase
+
+FIREBASE_CREDENTIALS=/Users/harman/Documents/Projects/RideRoll/dispatch/storage/app/firebase_credentials.json
+
+php artisan vendor:publish --provider="Kreait\Laravel\Firebase\ServiceProvider"
